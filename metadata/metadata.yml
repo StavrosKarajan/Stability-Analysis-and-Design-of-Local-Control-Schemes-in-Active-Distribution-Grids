@@ -1,0 +1,16 @@
+metadata_version: 1
+name: Stability Analysis and Design of Local Control Schemes in Active Distribution Grids
+description: Minimal working example demonstrating instabilities of the Volt/VAr curves proposed in the IEEE 1547 standard when applied to the single phase representation of the modified 19 bus CIGRE benchmark grid.
+authors:
+- name: André Eggli
+  affiliations:
+  - name: ETH Zurich
+- name: Stavros Karagiannopoulos
+  affiliations:
+  - name: ETH Zurich
+- name: Saverio Bolognani
+  affiliations:
+  - name: ETH Zurich
+corresponding_contributor:
+  name: André Eggli
+  email: andre.eggli@alumni.ethz.ch

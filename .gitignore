@@ -1,0 +1,16 @@
+# This project was developed on Pycharm and later uploaded to code ocean
+# All folders below are local only and not published to code ocean
+
+
+# virtual environment of pycharm, somewhat equivalent to 'environment' folder in code ocean
+.venv/
+.idea/
+
+# pycharm files
+**/*.pyc
+*.egg-info/
+.pytest_cache/
+
+# results are recomputed every time, no need for storing them
+results/
+*/__init__.py
