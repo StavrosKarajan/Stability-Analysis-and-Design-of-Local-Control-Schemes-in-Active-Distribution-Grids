@@ -5,7 +5,8 @@ This repository accompanies the paper:
 > **"Stability Analysis and Design of Local Control Schemes in Active Distribution Grids"**  
 > André Eggli, Stavros Karagiannopoulos, Saverio Bolognani, Gabriela Hug  
 > *IEEE Transactions on Smart Grid*  
-> [PDF](./FINAL%20VERSION.pdf)
+> [PDF](./StabilityAnalysis_TPS_2020.pdf) 
+
 
 ## 📌 Overview
 
