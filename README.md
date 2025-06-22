@@ -5,8 +5,7 @@ This repository accompanies the paper:
 > **"Stability Analysis and Design of Local Control Schemes in Active Distribution Grids"**  
 > André Eggli, Stavros Karagiannopoulos, Saverio Bolognani, Gabriela Hug  
 > *IEEE Transactions on Smart Grid*  
-> [PDF](./StabilityAnalysis_TPS_2020.pdf) 
-
+> [PDF](./StabilityAnalysis_TPS_2020.pdf)
 
 ## 📌 Overview
 
@@ -22,13 +21,19 @@ Key contributions:
 
 ```
 .
-├── README.md                # This file
-├── FINAL VERSION.pdf        # Published paper
-├── src/                     # Source code (cloned from CodeOcean)
-│   ├── grid_models/
-│   ├── stability_analysis/
-│   └── utils/
-└── notebooks/               # (Optional) Jupyter notebooks for demo
+├── README.md                             # This file
+├── StabilityAnalysis_TPS_2020.pdf        # Published paper
+├── code/                                 # Source code (from CodeOcean)
+│   ├── cigre_19bus/
+│   ├── ieee_1547/
+│   ├── stability/
+│   ├── test/
+│   └── main.py
+├── environment/                          # Environment/Docker setup
+│   └── Dockerfile
+├── metadata/                             # Metadata and cover image
+│   ├── cover.png
+│   └── metadata.yml
 ```
 
 > Source code is based on the capsule hosted at [CodeOcean](https://codeocean.com/capsule/4870905/tree/v1)  
@@ -60,19 +65,21 @@ cd distribution-grid-stability
 To reproduce the main case study:
 
 ```bash
-python src/stability_analysis/main_case_study.py
+python code/stability/analyse.py  # or code/main.py if that's the main entry point
 ```
 
 To visualize convergence under different filter parameters:
 
 ```bash
-python src/stability_analysis/convergence_analysis.py
+# (Update this to the correct script if needed)
+python code/stability/analyse.py --convergence
 ```
 
 To simulate the CIGRE LV grid scenario:
 
 ```bash
-python src/grid_models/cigre_simulation.py
+# (Update this to the correct script if needed)
+python code/cigre_19bus/grid.py
 ```
 
 ## 📈 Results
